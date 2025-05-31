@@ -3,8 +3,28 @@ html {
     color:deepskyblue;
 }
 body {
-    background-color:rgb(255, 227, 165);
+    background-color:rgb(248, 229, 187);
+    margin: 0;
 }
 p{
     font-size: 1rem;
+}
+.blue {
+        color: rgb(89, 0, 255);
+    }
+.thick{
+        font-weight:1000;
+    }
+#header {
+    background-image: url("https://th.bing.com/th/id/R.9d5450589457bb014588966c92a6cd0e?rik=izdfEC5ymo9RvQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f0%2f8%2f1133424-cool-ocean-desktop-wallpaper-1920x1440-for-macbook.jpg&ehk=whH8LBPlZDW4RBpRG5YLIpg69m3djO2zJ%2fzyz6ck2V0%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    height: 50%;
+    color:rgb(243, 238, 238);
+    font-size: 2rem;
+    border-radius: 0 0 1.2rem 1.2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5%;
 }
